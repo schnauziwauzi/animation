@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		iframe {
+			width: 100%;
+			height: 100%;
+		}
+		.box {
+			height: 400px;
+			width: 400px;
+			transition: width 4s ease-out 1s;
+					    height 2s ease-out 1s;
+		}
+		.box:hover {
+			height: 100%;
+			width: 100%;
+		}
+		body, html {
+			overflow: hidden;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<iframe src="http://www.orf.at" frameborder="0"></iframe>	
+	</div>
+</body>
+</html>
